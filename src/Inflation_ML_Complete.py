@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file_path = "bloom data transisition.xlsx"  
+file_path = "all_data.xlsx"  
 xls = pd.ExcelFile(file_path)
 
 inflation_df = xls.parse('Inflation')
@@ -45,7 +45,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.stattools import adfuller
 
 # Load the Excel file and Inflation data
-file_path = "bloom data transisition.xlsx"  # Ensure correct path
+file_path = "all_data.xlsx"  # Ensure correct path
 xls = pd.ExcelFile(file_path)
 inflation_df = xls.parse('Inflation')
 
@@ -141,7 +141,7 @@ import statsmodels.api as sm
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 
 # Load the Excel file and Inflation data
-file_path = "bloom data transisition.xlsx"  # Ensure correct path
+file_path = "all_data.xlsx"  # Ensure correct path
 xls = pd.ExcelFile(file_path)
 inflation_df = xls.parse('Inflation')
 
@@ -295,7 +295,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Load the dataset
-file_path = "bloom data transisition.xlsx"  # Ensure correct file path
+file_path = "all_data.xlsx"  # Ensure correct file path
 xls = pd.ExcelFile(file_path)
 inflation_df = xls.parse('Inflation')
 
@@ -394,7 +394,7 @@ import statsmodels.api as sm
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Load the dataset
-file_path = "bloom data transisition.xlsx"  
+file_path = "all_data.xlsx"  
 xls = pd.ExcelFile(file_path)
 inflation_df = xls.parse('Inflation')
 
@@ -507,7 +507,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the Excel file
-file_path = "bloom data transisition.xlsx"
+file_path = "all_data.xlsx"
 xls = pd.ExcelFile(file_path)
 
 # Load data from the "ALL DATA" sheet
@@ -547,7 +547,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import xgboost as xgb
 
 # Load the Excel file
-file_path = "bloom data transisition - XGBoost.xlsx"
+file_path = "all_data.xlsx"
 xls = pd.ExcelFile(file_path)
 
 # Load data from the "ALL DATA" sheet
@@ -665,7 +665,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 
 # ---- 1.Load data ----
-file_path = "bloom data transisition.xlsx"
+file_path = "all_data.xlsx"
 xls = pd.ExcelFile(file_path)
 
 # Load inflation data
